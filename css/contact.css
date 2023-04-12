@@ -1,0 +1,24 @@
+#contact{
+    margin-bottom: 50px;
+}
+#contact .con_info i{
+    color: #fff;
+    /* float: left; */
+    border-radius: 10px;
+    display: block;
+    font-size: 25px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    background: #fe4f70;
+    background: linear-gradient(to right,#fe4f70 0%,#ffa387 100%);
+}
+#contact .con_info_tx span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#con_from .craft{
+    box-shadow: none;
+    border: none;
+}

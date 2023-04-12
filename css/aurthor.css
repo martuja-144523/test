@@ -1,0 +1,15 @@
+#aurthor_ban{
+    height: 100%;
+    background: #f1f8ff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+ .aurthor_img img{
+    border-radius: 50%;
+}
+ .aurthor_info h1{
+    font-size: 30px;
+    font-weight: 700;
+}

@@ -1,0 +1,220 @@
+/* xxl device */
+@media (min-width:1400px) {
+
+}
+/* xl device */
+@media (min-width:1200px) and (max-width:1399.98px) {
+
+}
+/* lg device  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    #ban .ban_info h1 {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700;
+        margin: 10px 0px;
+    }
+    #editor .tb_list_img img {
+        border-radius: 15px;
+        width: 180%;
+    }
+    #editor .ed_info_tx {
+        border: solid 1px #ebebeb;
+        border-radius: 15px;
+        margin-bottom: 35px;
+    }
+    #editor .hd_3 h3 {
+        margin-bottom: 25px;
+    }
+    .list ul li::before {
+        content: "";
+        display: block;
+        height: 1px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        width: 100%;
+        background: #ebebeb;
+        background: linear-gradient(to right,#ebebeb 0%,transparent 100%);
+    }
+    .popular {
+        border: 1px solid #ebebeb;
+        padding: 15px;
+        margin-bottom: 35px;
+    }
+    .tb_list_img img {
+        border-radius: 50%;
+        transform: scale(1);
+        transition: .5s;
+        width: 160%;
+    }
+    .tb_list_info {
+        margin: 39px 0;
+    }
+
+    /* post archive reponsive */
+    #post_ban {
+        background: url(../image/post_ban.jpg);
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+    }
+    #editor .tb_list_img img {
+        border-radius: 15px;
+        width: 125%;
+    }
+    .tb_list_info {
+        margin: 20px 0;
+    }
+    /* #editor .img-fluid {
+        border-radius: 5px;
+        height: 100%;
+    } */
+}
+/* md device */
+@media (min-width:768px) and (max-width:991.98px) {
+    #ban .ban_img{
+        width: 100%;
+    }
+    .ban_table .tb_btn {
+        padding: 15px;
+    }
+    .ban_table button {
+        color: var(--defult-tx-color);
+        background: linear-gradient(to right,#fe4f70 0%,#ffa387 100%);
+        padding: 10px;
+        border: none;
+        border-radius: 26px;
+        display: block;
+    }
+    .ban_table {
+        margin: 30px 0;
+        border: solid 1px #ebebeb;
+        border-radius: 10px !important;
+    }
+    .tb_list_info {
+        margin: 35px 0;
+    }
+    #ban {
+        margin: 10px 0;
+    }
+    #editor .tb_list_img img {
+        border-radius: 15px;
+    }
+    #editor .ed_info_tx {
+        border: solid 1px #ebebeb;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    #editor .hd_3 h3 {
+        margin-bottom: 25px;
+    }
+    .list ul li::before {
+        content: "";
+        display: block;
+        height: 1px;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        width: 100%;
+        background: #ebebeb;
+        background: linear-gradient(to right,#ebebeb 0%,transparent 100%);
+    }
+    .form form input {
+        border: 1px solid #ebebeb;
+        border-radius: 15px;
+        margin: 10px 0;
+    }
+    #contact .con_info i {
+        color: #fff;
+        /* float: left; */
+        border-radius: 10px;
+        display: block;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        width: 50px;
+        background: #fe4f70;
+        background: linear-gradient(to right,#fe4f70 0%,#ffa387 100%);
+    }
+}
+/* sm device */
+@media (min-width:576px) and (max-width:767.98px) {
+    .ban_table button {
+        color: var(--defult-tx-color);
+        background: linear-gradient(to right,#fe4f70 0%,#ffa387 100%);
+        padding: 10px;
+        border: none;
+        border-radius: 26px;
+        display: block;
+    }
+    .ban_table {
+        margin-left: auto;
+        border: solid 1px #ebebeb;
+        border-radius: 10px !important;
+        margin: 25px 0;
+    }
+    .ban_table .tb_btn {
+        padding: 17px;
+    }
+    #editor .tb_list_img img {
+        border-radius: 15px;
+    }
+    #editor .img-fluid {
+        border-radius: 5px;
+        width: 100% !important;
+    }
+    .Trending .padd{
+        margin-top: 10px;
+    }
+    .tb_list_tx ul{
+        margin: 7px 0;
+    }
+    li {
+        list-style-type: none;
+        font-size: 10.5px;
+    }
+    .latest_news h4 {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .nav_icon i {
+        color: var(--normal-color);
+        font-size: 20px;
+        padding: 0 12px;
+        cursor: pointer;
+        transition: .4s;
+    }
+    .tx-cr {
+        justify-content: center !important;
+    }
+    #instra {
+        margin-bottom: 15px;
+    }
+    .ps_at .aurthor {
+        background: #f1f8ff;
+        text-align: center;
+    }
+    .shear_icon .nav_icon{
+        font-size: 5px;
+    }
+    #aurthor_ban .aurthor_info{
+        text-align: center;
+        font-size: 13px;
+    }
+    li {
+        list-style-type: none;
+        font-size: 8.5px;
+    }
+    #contact .rounded {
+        border-radius: 10px !important;
+        margin: 10px 0;
+    }
+}
+/* xs device */
+@media (max-width:575.98px) {
+
+}

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- fontawsome link  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- slick slide link  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/archive.css">
+    <link rel="stylesheet" href="css/post_det.css">
+    <link rel="stylesheet" href="css/aurthor.css">
+    <!-- responsive link  -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+ <!-- Side nav code starts here  -->
+ <div id="sideNav">
+  <div class="position-relative my-2">
+    <button class="sli_x position-absolute"><i class="fa-solid fa-xmark"></i></button>
+    <div>
+      <img src="./image/logo.svg" class="img-fluid my-4">
+    </div>    
+    <ul class="g-0 m-0 p-0 af ">
+      <li class="nav-item p-2" ><a href="index.html">Home</a></li>
+      
+          <li><hr class="m-0"></li>
+      <li class="nav-item p-2" ><a href="post.html">Post</a></li>
+      
+          <li><hr class="m-0"></li>
+      <li class="nav-item dropdown p-2">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          Fetures
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="archive.html">Archive</a></li>
+          <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+          <li><a class="dropdown-item" href="aurthor.html">Aurthor</a></li>
+          <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+        </ul>
+      </li>
+          <li><hr class="m-0"></li>
+      <li class="nav-item p-2" ><a href="#">Shop</a></li>
+      
+          <li><hr class="m-0"></li>
+      
+    </ul>  
+  </div>
+</div>
+<!--Side nav code ends here -->
+
+
+
+<div class="d-flex justify-content-between container">
+
+  <div class="d-flex justify-content-between ">
+    <nav class="navbar navbar-expand-lg my-nab">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index.html">
+          <img src="./image/logo.svg" alt="">
+        </a>
+        <!-- <button class="navbar-toggler craft"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2  mb-lg-0">
+            <li class="nav-item dropdown shop_drop li_parents">
+              <a class="nav-link  dropdown-toggle " href="index.html">
+                Home
+              </a>
+              <ul class="Sh_dropdown p-0">
+                <li><a class="dropdown-item" href="#">Cart</a></li>
+                <li><hr class="m-0"></li>
+                <li><a class="dropdown-item" href="#">Cheakout</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown shop_drop li_parents">
+              <a class="nav-link dropdown-toggle bg" href="#">
+                Fetures
+              </a>
+              <ul class="Sh_dropdown p-0">
+                <li><a class="dropdown-item" href="archive.html">Archive</a></li>              
+                <li><hr class="m-0"></li>
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                <li><hr class="m-0"></li>
+                <li><a class="dropdown-item" href="aurthor.html">Author</a></li>
+                <li><hr class="m-0"></li>
+                <li><a class="dropdown-item" href="contact.html">Contacts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown shop_drop li_parents">
+              <a class="nav-link dropdown-toggle " href="#">
+                Shop
+              </a>
+              <ul class="Sh_dropdown p-0">
+                <li><a class="dropdown-item" href="#">Cart</a></li>
+                <li><hr class="m-0"></li>
+                <li><a class="dropdown-item" href="#">Cheakout</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+  
+          <div class="nav_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+     
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+   <!-- popUp code starts here  -->
+   <div class="nav_search d-flex align-items-center">
+    <button id="searchbar_toggler" class="craf_btn me-2">
+      <i class="fa-solid fa-magnifying-glass " ></i>
+    </button>
+    <button id="sidebar_toggler" class="nav_btn craf_btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>   
+<!--popUp code ends here -->
+</div>
+<div id="popUp">
+  <div class="pop_se h-100">
+      <div class="po_bak position-relative d-flex flex-nowrap align-items-center justify-content-center h-100">
+        <button class="ppCross cross position-absolute ">
+          <i class="fa-solid fa-xmark "></i>
+        </button>
+        <div class="w-100 text-center">
+          <h3 class="hd_3 py-3">Press ESC to close</h3>
+          <form action="#" class="m-auto d-flex justify-content-center">
+            <div class="row w-100 d-flex justify-content-center">
+              <input type="search" class="col-sm-6 p-2 roundedex focas bd" placeholder="Search and press enter ..." />
+              <button type="submit" class="col-sm-1 pp_btn roundedex craft bd">
+                <i class="fa-solid fa-magnifying-glass  "></i>
+              </button>
+            </div>
+          </form>            
+        </div>
+      </div>
+  </div>
+</div>
+  <!-- banner code starts here  -->
+  <section id="ar_ban">
+  <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center">
+          <div class="ar_ban text-center ">
+            <h1 class="hd_3">Lifestyle</h1>
+            <p>
+              <a href="#">Katen</a>
+            <span>/ Lifestyle</span>
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <!--banner code ends here -->
+
+  <!-- Editors pick code starts here  -->
+  <section id="editor">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 editor_info g-0">
+            <!-- slide code ends here  -->
+            <!-- latest news  -->
+            <div class="latest_news">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="hd_3">
+                    Latest News
+                  </h3>
+                  <div class="latest_div">
+                    <div class="tb_list_info d-flex flex-wrap">
+                      <div class="parents">
+                        <div class="latest_border">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 downaf">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 downaf">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 downaf">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 downaf">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 downaf">
+                              <div class="row p-1">
+                                <div class=" col-md-4 tb_list_img imageOv p-0">
+                                  <img src="./image/latest_img_1.jpg" class="img-fluid img_hover">
+                                </div>
+                                <div class=" col-md-8 tb_list_tx">
+                                  <ul class="p-0 d-flex align-items-center">
+                                    <li class=" d-flex align-items-center">
+                                      <img src="./image/ed_p2.jpg" >
+                                      <a href="aurthor.html" class="ancor_Hv red position-relative pe-4">Katon Smith</a>
+                                    </li>
+                                    <li><a href="#" class="ancor_Hv red position-relative px-4">Treanding</a></li>
+                                    <li><span class="tx ps-4">August 20, 2022</span></li>
+                                  </ul>
+                                  <h4>Facts About Business That Will Help You Success</h4>
+                                  <p>August 23, 2022</p>
+                                  <div class="d-flex flex-wrap justify-content-between nw_sh">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="load d-flex align-items-center justify-content-center">
+                          <div>
+                            <a href="#">Load More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- latest news  -->
+            
+          <div class="col-lg-4 editor_table ms-auto">
+
+          </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 ">
+            <div class="news rounded text-center">
+              <img src="./image/logo.svg" class="img-fluid pb-3">
+              <p>
+                Hello, We’re content writer who is fascinated by content fashion, celebrity and lifestyle. We helps clients bring the right content to the right people.
+              </p>
+              <div class="nav_icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+
+            <div class="popular rounded">
+              <h3 class="hd_3"> 
+                Popular Post
+              </h3>
+              <div class="tb_list_info d-flex flex-wrap">
+                <div class="row">
+                  <div class=" col-sm-3 tb_list_img">
+                    <img src="./image/li.jpg" class="img-fluid">
+                  </div>
+                  <div class=" col-sm-9 tb_list_tx">
+                    <h4>Facts About Business That Will Help You Success</h4>
+                    <p>August 23, 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tb_list_info d-flex flex-wrap">
+                <div class="row">
+                  <div class=" col-sm-3 tb_list_img">
+                    <img src="./image/li.jpg" class="img-fluid">
+                  </div>
+                  <div class=" col-sm-9 tb_list_tx">
+                    <h4>Facts About Business That Will Help You Success</h4>
+                    <p>August 23, 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tb_list_info d-flex flex-wrap">
+                <div class="row">
+                  <div class=" col-sm-3 tb_list_img">
+                    <img src="./image/li.jpg" class="img-fluid">
+                  </div>
+                  <div class=" col-sm-9 tb_list_tx">
+                    <h4>Facts About Business That Will Help You Success</h4>
+                    <p>August 23, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list rounded p-4">
+              <h3 class="hd_3">
+                Explore Topics
+              </h3>
+              <ul class="g-0 p-0">
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Celebration</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Cultire</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Fashion</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Inspiration</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Lifestyle</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Politic</a> <span>(2)</span></li>
+                <li class="d-flex flex-wrap justify-content-between">
+                   <a href="#"> <span>></span> Trending</a> <span>(2)</span></li>
+              </ul>
+            </div>
+            <div class="form bd rounded p-4 my-4 text-center">
+              <div class="row" >
+                <div class="col-lg-12">
+                  <h4 class="hd_3">
+                    Newsletter
+                  </h4>
+                  <p>Join 70,000 subscribers!</p>
+                  <form action="">
+                    <input type="text" class="text-center focas" placeholder="Enter Your Email">
+                  </form>
+                  <button class="rounded">Sign Up</button>
+                  <span>By signing up, you agree to our <a href="#">Privacy Policy</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="add_2 d-flex align-items-center justify-content-center">
+              <img src="./image/ad-360.png" class="img-fluid">
+            </div>
+            <div class="keywords bd rounded my-4 p-4">
+              <h3 class="text-center pb-3 hd_3">Tag Clouds</h3>
+              <div class="keywords_a">
+                <a href="#">#Audio</a>
+                <a href="#">#Contacts</a>
+                <a href="#">#Home</a>
+                <a href="#">#FAQ</a>
+                <a href="#">#Image</a>
+                <a href="#">#Pick</a>
+                <a href="#">#Photo</a>
+                <a href="#">#Treanding</a>
+                <a href="#">#Slide</a>
+                <a href="#">#Fetured</a>
+                <a href="#">#content</a>
+              </div>
+            </div>
+          </div>
+  </div>
+  </section>
+  <!--Editors pick code ends here -->
+  <!-- Instragram code starts here  -->
+  <section id="instra">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 instra_img">
+              <a href="#" class="craft">@Katen on Instagram</a>
+              <div class="row">
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_1.jpg" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_2.jpg" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_3.jpg" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_4.jpg" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_5.jpg" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 instra_div_1 p-0">
+                  <a href="#">
+                    <img src="./image/inst_6.jpg" class="img-fluid ">
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--Instragram code ends here -->
+    <footer>
+     <div class="container">
+      <div class="row ">
+        <div class="col-md-4 my-2 col-sm-12 tx-cr d-flex flex-wrap justify-content-start">
+          <a href="#">© 2022 Katen. Theme by ThemeGer</a>
+        </div>
+        <div class="col-md-4 my-2 col-sm-12 tx-cr d-flex flex-wrap justify-content-center nav_icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="col-md-4 my-2 col-sm-12 tx-cr d-flex flex-wrap justify-content-end">
+          <button id="back_to_top">
+              <div>
+                <a href="#">Back To Top</a>
+              </div>    
+          </button>
+        </div>
+      </div>
+     </div>
+    </footer>
+  <!-- bootstep js link  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- jqurry link  -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- slick slide link  -->
+  <script src="js/slick.min.js"></script>
+  <!-- my js link  -->
+  <script src="js/app.js"></script>  
+</body>
+</html>
+
+

@@ -1,0 +1,73 @@
+#post_ban{
+    background: url(../image/post_ban.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+#post_ban::after{
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(32,54,86,.6);
+    z-index: 0;
+}
+#post_ban .ar_ban{
+    z-index: 1;
+}
+#post_ban .ban_det_img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#post_ban a ,
+#post_ban p,
+#post_ban h1,
+#post_ban span ,
+#post_ban ul li{
+    color: #fff;
+}
+#post_ban ul li{
+    margin-right: 10px;
+}
+.nw_3 .disc li{
+    list-style-type: circle !important;
+}
+.nw_3{
+    position: relative;
+}
+.nw_3::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #f1f8ff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.ps_at .aurthor{
+    background: #f1f8ff;
+    
+}
+.wd h3.hd_3{
+    font-size: 18px;
+}
+.wd h3 a{
+    color: #203656;
+    font-size: 18px;
+    line-height: 20px;
+}
+.wd .left{
+    text-align: end;
+}
+.comment label{
+    display: block;
+}
+.comment .cm_tx_ar{
+    width: 100%;
+}
